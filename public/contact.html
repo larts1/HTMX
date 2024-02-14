@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title>Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/htmx.org@1.9.10"
+        integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--
+// v0 by Vercel.
+// https://v0.dev/t/eyqptbTVkK7
+-->
+
+    <div class="flex flex-col h-screen justify-between">
+        <header class="flex h-20 w-full items-center px-4 md:px-6">
+            <a href="index.html"><img src="pics/logo.png" height="100" width="100" /></a>
+            <nav class="ml-auto flex gap-4 sm:gap-6">
+                <a class="text-sm font-medium hover:underline underline-offset-4" href="index.html">
+                    Home
+                </a>
+                <a class="text-sm font-medium hover:underline underline-offset-4" href="about.html">
+                    About
+                </a>
+                <a class="text-sm font-medium hover:underline underline-offset-4" href="contact.html">
+                    Contact
+                </a>
+            </nav>
+        </header>
+        <main class="flex flex-grow items-center justify-center px-4 md:px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="flex justify-center items-center">
+                    <img src="pics/contact_cow.webp" alt="Contact Us" class="w-full h-full object-cover rounded-lg"
+                        width="500" height="500" style="aspect-ratio: 500 / 500; object-fit: cover;" />
+                </div>
+                <div class="text-center">
+                    <h1 class="text-3xl font-bold mb-4">Contact Us</h1>
+                    <p class="text-gray-500">
+                        We're not likely to be looking for new clients, but we're still happy to hear from you.
+                    </p>
+                    <p class="text-gray-500 mt-4">
+                        <span class="font-bold">Email:</span> esa@mantysaari.net
+                    </p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+</html>
